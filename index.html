@@ -1,0 +1,98 @@
+<!Doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title> RWD </title>
+      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+      <script src="https://use.fontawesome.com/ac62c0e0c8.js"></script>
+   </head>
+   <body>
+      <header>
+         <p class="pheader"> SURFING THE WEBZ </p>
+         <hr>
+         <section class="socialmedia">
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+         </section>
+      </header>
+      <div class="section group">
+         <div class="col span_1_of_2">
+            <article>
+               <h1> Responsive Web Design</h1>
+               <p>Responsive design resolves the problem of having to create multiple versions of the same website to accommodate different devices, screen sizes, and orientations. By incorporating flexible grids and layouts, fluid images and media queries when designing websites and apps, the same website can be viewed and interacted with from multiple platforms without losing interactivity or quality. This means that all users regardless of where they are accessing the website will have a consistent experience. </p>
+               <p>From a developmental perspective, it eliminates the issue of having to develop in a rush for all new devices in the market. The time and resources developers used to spend in redundant work can be now used to create more meaningful experiences, and products that better meet users’ expectations. Improved products can in return increase the traffic to a website, improve how we use the internet, and facilitate information sharing. </p>
+               <p>While developing a responsive website might take more time and skills at first, in the long term,it seems that the investment pays off for both developers and users. </p>
+            </article>
+         </div>
+         <div class="col span_1_of_2">
+            <h4> Want to know more?</h4>
+            <p class="pform"> Contact us to schedule a website review!</p>
+            <form method="Get">
+               <label>First name*<br>
+               <input type="text" name="firstname" autofocus required>
+               </label>
+               <br>
+               <label>Last name*<br>
+               <input type="text" name="lastname">
+               </label>
+               <br>
+               <label>Email*<br>
+               <input type="email" name="email" required>
+               </label>
+               <br>
+               <label>Student Email<br>
+               <input type="email" name="email" pattern=".+.edu" placeholder="students get 15% off!">
+               </label>
+               <br>
+               <label> Phone number <br> 
+               <input type="number" name="phonenumber"> </label>
+               <br>
+               <label> About how many visitors does your site gets per day? </label> <br>
+               <div class="mainselection">
+                  <select name="visitorNumber">
+                     <option value="" selected> Please select </option>
+                     <option value="50-100"> 50 > </option>
+                     <option value="50-100"> 200 > </option>
+                     <option value="50-100"> 500 > </option>
+                     <option value="50-100"> 1000 > </option>
+                  </select>
+               </div>
+               <div>
+                  <fieldset>
+                     <legend> Was your website designed by a professional developer?     </legend>
+                     <label>yes 
+                     <input type="radio" name="professional" value="yes"></label>
+                     <label> no
+                     <input type="radio" name="professional" value="no"> </label> 
+                  </fieldset>
+                  <fieldset>
+                     <legend> How satisfied are you with your website's design?</legend>
+                     <label>
+                     Not at all :/
+                     <input type="checkbox" name="nosatisfaction">
+                     </label>
+                     <label>
+                     meh
+                     <input type="checkbox" name="mediumsatisfaction">
+                     </label> 
+                     <label>
+                     worse is nothing
+                     <input type="checkbox" name="resignation">
+                     </label>
+                  </fieldset>
+               </div>
+               <label> Any feelings you want to share with us? <br>
+               <textarea  rows="4" cols="50" name="feelings"> </textarea> <br>   
+               </label>
+               <br>
+               <input type="submit" value="Get in contact">
+               <br>
+               <br>
+            </form>
+         </div>
+      </div>
+   </body>
+</html>
