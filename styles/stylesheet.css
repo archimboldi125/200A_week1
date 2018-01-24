@@ -89,7 +89,7 @@ html {
      overflow:hidden;
      width:31%;
      margin-left: inherit;
-     background: url("images/dropdown_arrow.png") no-repeat #fff 319px 2px;
+    background: #fff 319px 2px;
 }
  select {
      border:0;
